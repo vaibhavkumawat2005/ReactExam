@@ -1,4 +1,28 @@
 {
-    "tasks": []
-  }
-  
+  "tasks": [
+    {
+      "id": "7e8c",
+      "username": "akbhsfbiahdsf",
+      "task": "vaibhav",
+      "date": "2025-04-04",
+      "status": 1,
+      "task_type": "personal"
+    },
+    {
+      "id": "654c",
+      "username": "csdf",
+      "task": "vhj",
+      "date": "2025-04-03",
+      "status": 0,
+      "task_type": "personal"
+    },
+    {
+      "id": "6fbe",
+      "username": "sdfds",
+      "task": "csds",
+      "date": "2025-04-06",
+      "status": 1,
+      "task_type": "urgent"
+    }
+  ]
+}
