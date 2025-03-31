@@ -1,12 +1,43 @@
-# React + Vite
+ <h1>Todo App</h1>
+    <p>A simple Todo List application built with React and Bootstrap.</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  <h2>Features</h2>
+    <ul>
+        <li>Add new tasks with a username, date, status, and category.</li>
+        <li>View a list of tasks with different background colors based on task type.</li>
+        <li>Update task status dynamically.</li>
+        <li>Form validation for better user experience.</li>
+    </ul>
 
-Currently, two official plugins are available:
+  <h1>Screenshot and video</h1>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  
 
-## Expanding the ESLint configuration
+  ![Screenshot 2025-03-31 105524](https://github.com/user-attachments/assets/ae368eca-d087-45d5-8326-8b9c19f1f9a5)
+  ![Screenshot 2025-03-31 110348](https://github.com/user-attachments/assets/de950f84-9dfb-431c-9fc0-53eefc398d12)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+  <h2>Installation</h2>
+    <p>Follow these steps to set up and run the application:</p>
+    <pre><code>git clone https://github.com/your-repo/todo-app.git
+cd todo-app
+npm install
+npm start</code></pre>
+
+   <h2>Backend Setup</h2>
+    <p>This app fetches tasks from a local API running at <code>http://localhost:3000/tasks</code>. You need a backend server to store tasks.</p>
+    <p>Use <a href="https://www.npmjs.com/package/json-server">json-server</a> for a quick mock API:</p>
+    <pre><code>npm install -g json-server
+json-server --watch db.json --port 3000</code></pre>
+
+   <h2>Usage</h2>
+    <p>Open <code>http://localhost:3000</code> in your browser and start adding tasks.</p>
+
+  <h2>Technologies Used</h2>
+    <ul>
+        <li>React</li>
+        <li>Bootstrap</li>
+        <li>Axios</li>
+        <li>json-server (for API)</li>
+    </ul>
